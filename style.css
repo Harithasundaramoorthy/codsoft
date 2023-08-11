@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.navbar{
+    margin: 0;
+    width:100%;
+    height: 20px;
+}
+.nav-ul{
+margin:0;
+padding: 10px;
+list-style:none;
+}
+.li{
+    float: left;
+    padding: 10px;
+    font-weight: 600;
+    margin-right: 30px;
+    cursor: pointer;
+    padding-bottom: 24px;
+}
+.brand{
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 50px;
+}
+.brand-heading{
+    font-size: 26px;
+    margin-right: 270px;
+    margin-left: 0px;
+}
