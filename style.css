@@ -4,31 +4,42 @@ body{
     overflow: hidden;
     position: relative;
 }
-.navbar{
-    margin: 0;
-    width:100%;
+.navbar {
+    background-color:grey;
+    position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  border-right: solid;
+  }
+  .logo{
     height: 20px;
-}
-.nav-ul{
-margin:0;
-padding: 10px;
-list-style:none;
-}
-.li{
     float: left;
-    padding: 10px;
-    font-weight: 600;
-    margin-right: 30px;
-    cursor: pointer;
-    padding-bottom: 24px;
+    padding: 0px;
+    padding-bottom: 50px;
+  }
+  .navbar a{
+    float: left;
+    font-size: 20px;
+    color: rgb(5, 4, 4);
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+  }
+  .navbar span {
+    float: right;
+  color: #050303;
+  padding: 0px 30px;
+  padding-top:15px;
+  text-decoration: none;
+  cursor: pointer;
+ text-align: center;
+ display: flex;
+  margin-left: auto;
 }
-.brand{
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 50px;
-}
-.brand-heading{
-    font-size: 26px;
-    margin-right: 270px;
-    margin-left: 0px;
-}
+
+  .navbar span:hover {
+    color: rgb(250, 246, 246);
+  }
